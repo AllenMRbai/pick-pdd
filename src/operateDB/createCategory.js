@@ -3,7 +3,7 @@
  * category-one 一对多 category-two
  * 
  * 注意：直接执行该文件会报级联操作时的错误，此时可以先创建CategoryOne，
- * 再注释掉所有与CategoryOne有关的代码在创建CategoryTwo
+ * 然后注释掉所有与CategoryOne有关的代码再创建CategoryTwo
  */
 const Sequelize=require('sequelize');
 const sequelize=require('../pojo/dbpools.js');

@@ -11,7 +11,7 @@ const Product=require('../pojo/Product.js');
 
 //get方法的参数
 const opts={
-    size:50//设置每次爬取的个数，默认为100个
+    size:50//设置每个二级分类爬取的个数，不设置默认为100个
 }
 
 /**
