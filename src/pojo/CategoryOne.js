@@ -3,7 +3,7 @@ const sequelize=require('./dbpools');
 const CategoryTwo=require('./CategoryTwo');
 
 //产品主表
-const CategoryOne=sequelize.define('category-one',{
+const CategoryOne=sequelize.define('category_one',{
 	id:{
 		type:Sequelize.INTEGER,
 		primaryKey:true
